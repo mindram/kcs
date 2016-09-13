@@ -1,0 +1,80 @@
+#callback img {
+	border: 0;
+}
+
+#callback {
+	position: fixed;
+	z-index: 199; /* 1001 */
+	top: 140px;
+	height: 380px;
+	width: 40px;
+	right: 0;
+	overflow: hidden;
+}
+
+#callback .left_callback {/*! position: relative; */ float: left; height: 135px; width: 40px;}
+#callback .left_callback img {float: left; height: 135px; width: 40px; cursor: pointer;}
+#callback .soc_clear {clear: none !important;}
+#callback .right_callback {
+	position: absolute;
+	left: 40px;
+	float: right;
+	height: 300px;
+	width: 339px;
+	padding: 12px;
+	background: #fff;
+    border: 1px solid #b6d3e1;
+}
+
+#callback .right_callback_thanks {
+	position: absolute;
+	right:0;
+	top:0;
+	height:435px;
+	width:341px;
+	padding:12px;
+	background:#FFFFFF;
+	opacity: 0.8;
+}
+
+#callback .right_callback_thanks h1 {text-align: center; color: #ea3b30;}
+#callback .right_callback .notice {float: left; width: 340px; margin-bottom: 10px; color: #4a4a4a; font: normal 11px Arial; text-align: left;}
+#callback .right_callback .aster_desc {float: left; width: 100px;	color: #EB3B2E; text-align: left;}
+#callback .right_callback label {clear: left; float: left; height: 25px; line-height: 25px; width: 150px; font-size: 11px;	text-align: left; font-style: normal; color: #4a4a4a;}
+#callback .right_callback label.mandatory {width:78px;	font: normal 11px arial; color:#4a4a4a;}
+.aster {margin: 0px; font-size: 11px; color: #e44337; font-style: italic; width: 8px;}
+#callback .input_holder {float:left;	border:0; margin-bottom:6px;}
+#callback .right_callback input[type=text] {
+	float:left;
+	padding:3px;
+	height:16px;
+	width:253px;
+	border:1px solid #dcdcdc;
+	background-color:#f8f8f8;
+	color:#7c8a8d;
+    font:normal 11px Helvetica,'Trebuchet MS',Jamrul,sans-serif; 
+}
+#callback .right_callback img {float:left; margin-left:5px; height:25px;}
+#callback .right_callback input[type=image] {float:right;}
+#callback .right_callback input[type=checkbox] {
+	margin:3px 4px 5px 0px;
+	float:left;
+	padding:0px;
+	width:13px;
+	height:13px;
+    font:normal 11px Helvetica,'Trebuchet MS',Jamrul,sans-serif; 
+}
+
+#callback .right_callback textarea {
+	float:left;
+	padding:3px;
+	height:120px;
+	width:330px;
+	border:1px solid #dcdcdc;
+	/*background-color:#fff;*/
+	background-color:#f8f8f8;
+	color:#7c8a8d;
+	overflow:auto;
+	resize:none;
+    font:normal 11px Helvetica,'Trebuchet MS',Jamrul,sans-serif;
+}	
